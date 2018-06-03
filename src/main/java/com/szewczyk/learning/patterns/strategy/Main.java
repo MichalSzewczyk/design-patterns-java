@@ -1,5 +1,7 @@
 package com.szewczyk.learning.patterns.strategy;
 
+import com.szewczyk.learning.patterns.common.Output;
+
 public class Main {
     public static void main(String[] args) {
         Output stdOutput = System.out::println;
